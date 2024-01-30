@@ -1,0 +1,44 @@
+body{
+   
+}
+
+/* navbar section */
+.logoimg{
+    width: 4vw;
+
+}
+.nav-1{
+  position: sticky;  
+  top: 0;
+}
+/* welcome section */
+.Welcome{
+    background-image:url(./img/hero-bg.jpg);
+    background-size: cover;
+    height: 78vh;
+    margin-bottom: -10vw;
+}
+.Welcome .container{
+   
+    
+}
+.wel{
+padding-top: 15vh;
+}
+/* Choose section */
+.btn-learn{
+    color:white;
+    background-color:rgb(96 165 250);
+    width: 10vw;
+    border: 0;
+  
+}
+.btn-learn:hover{
+    background-color: white;
+    color:blue;
+}
+.first-card{
+   height: 20vw;
+ 
+    color:rgb(21 94 117);
+}
