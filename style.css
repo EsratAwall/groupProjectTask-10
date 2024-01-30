@@ -42,3 +42,11 @@ padding-top: 15vh;
  
     color:rgb(21 94 117);
 }
+/* enim section */
+.img-hover:hover{
+    background-color: rgb(73, 73, 233);
+    color: white;
+}
+.dine:hover{
+    color: blue;
+}
