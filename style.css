@@ -1,5 +1,5 @@
 body{
-   
+  
 }
 
 /* navbar section */
@@ -49,4 +49,19 @@ padding-top: 15vh;
 }
 .dine:hover{
     color: blue;
+}
+/* services section */
+.serviceshover:hover{
+    background-color:rgb(73, 73, 233) ;
+    color: white;
+}
+.servicesimg{
+    width: 4vw;
+    background-color:rgb(73, 73, 233);
+}
+.servicesimg:hover{
+    background-color:rgb(55, 136, 236) ;
+}
+.servicestext:hover{
+    color: white;
 }
