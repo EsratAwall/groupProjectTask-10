@@ -59,4 +59,19 @@ padding-top: 15vh;
 .servicestext:hover{
     color: white;
 }
-/* Appointment section */
+/* Departments section */
+.cardio-depart{
+    list-style-type: none;
+}
+.cardio-list a{
+    text-decoration: none;
+    color: rgb(43, 42, 42);
+}
+.cardio-list a:hover{
+    color: rgb(76, 76, 251);   
+  
+}
+.cardio-list1 a{
+    text-decoration: none;
+    color: rgb(76, 76, 251);
+}
