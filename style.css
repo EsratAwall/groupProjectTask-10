@@ -1,6 +1,3 @@
-body{
-  
-}
 
 /* navbar section */
 .logoimg{
@@ -18,10 +15,7 @@ body{
     height: 78vh;
     margin-bottom: -10vw;
 }
-.Welcome .container{
-   
-    
-}
+
 .wel{
 padding-top: 15vh;
 }
@@ -65,3 +59,4 @@ padding-top: 15vh;
 .servicestext:hover{
     color: white;
 }
+/* Appointment section */
