@@ -94,10 +94,24 @@ padding-top: 15vh;
 }
 /* location */
 .loca-sec{
-    background-color: rgb(190, 207, 211);
+    background-color: rgb(200, 210, 212);
     color: blue;
 }
 .loca-sec:hover{
     background-color:rgb(50, 50, 234);
     color: white;
+}
+/* footer section */
+.footer-sect{
+color:  rgb(107 114 128);
+
+}
+.footericon{
+    color: rgb(101, 101, 240);
+}
+.last-button{
+margin-left: -3vw;
+}
+.lastsectionfo{
+    box-shadow: 0 25px 50px -12px rgba(122, 166, 160, 0.25);
 }
