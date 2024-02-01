@@ -92,3 +92,12 @@ padding-top: 15vh;
 .frequen:hover{
     color: rgb(11, 63, 122);
 }
+/* location */
+.loca-sec{
+    background-color: rgb(176, 199, 205);
+    color: blue;
+}
+.loca-sec:hover{
+    background-color:rgb(50, 50, 234);
+    color: white;
+}
