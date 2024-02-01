@@ -1,6 +1,42 @@
 html{
     scroll-behavior: smooth;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* middle underline */
+  .parasect {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #2c4964;
+  }
+  
+  .parasect::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #ddd;
+    bottom: 1px;
+    left: calc(50% - 60px);
+  }
+  
+  .parasect::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 3px;
+    background: #1977cc;
+    bottom: 0;
+    left: calc(50% - 20px);
+  }
 /* navbar section */
 .logoimg{
     width: 4vw;
@@ -17,7 +53,18 @@ html{
     height: 78vh;
     margin-bottom: -10vw;
 }
-
+@media (min-width: 1024px) {
+    .Welcome {
+      background-attachment: fixed;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .Welcome {
+      margin-bottom: 0;
+      height: 100vh;
+    }
+}
 .wel{
 padding-top: 15vh;
 }
@@ -113,5 +160,13 @@ color:  rgb(107 114 128);
 margin-left: -3vw;
 }
 .lastsectionfo{
-    box-shadow: 0 25px 50px -12px rgba(122, 166, 160, 0.25);
+    box-shadow: 10px 25px 50px -12px rgba(122, 166, 160, 0.25);
+}
+.iconcolor2{
+    color: white;
+    background-color: rgb(6, 118, 155);
+    border-radius: 50%;
+}
+.iconcolor2:hover{
+  background-color: rgb(82, 82, 246) ; 
 }
