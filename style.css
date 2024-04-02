@@ -66,19 +66,9 @@ body{
     background-size: cover;
     height: 78vh;
     margin-bottom: -10vw;
+    background-attachment: fixed;
 }
-@media (min-width: 1024px) {
-    .Welcome{
-      background-attachment: fixed;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    .Welcome{
-      margin-bottom: 0;
-      height: 100vh;
-    }
-}
+
 .wel{
 padding-top: 15vh;
 }
