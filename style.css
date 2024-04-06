@@ -12,13 +12,9 @@ body{
 /* started button */
 .started-btn{
     color:white;
-    width: 10vw;
+    width: 170px;
 }
-@media (max-width: 576px) {
-    .started-btn{
-      width: 30vw;
-    }
-}
+
 /* middle underline */
   .parasect {
     font-size: 32px;
